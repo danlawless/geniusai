@@ -1,0 +1,36 @@
+{
+  "name": "geniusai-admin-dashboard",
+  "version": "1.0.0",
+  "description": "GeniusAI Admin Dashboard - Professional Next.js dashboard for AI platform management",
+  "scripts": {
+    "dashboard": "cd admin-dashboard && npm run dev",
+    "dashboard:dev": "cd admin-dashboard && npm run dev",
+    "dashboard:build": "cd admin-dashboard && npm run build",
+    "dashboard:start": "cd admin-dashboard && npm run start",
+    "dashboard:install": "cd admin-dashboard && npm install",
+    "dashboard:lint": "cd admin-dashboard && npm run lint",
+    "dashboard:export": "cd admin-dashboard && npm run build",
+    "dashboard:vercel": "cd admin-dashboard && vercel --prod",
+    "admin": "cd admin-dashboard && npm run dev"
+  },
+  "keywords": [
+    "admin-dashboard",
+    "nextjs",
+    "react",
+    "typescript",
+    "tailwindcss",
+    "vercel",
+    "ai-platform",
+    "demo"
+  ],
+  "author": "Dan Lawless",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/danlawless/geniusai.git"
+  },
+  "engines": {
+    "node": ">=18.0.0",
+    "npm": ">=9.0.0"
+  }
+}
