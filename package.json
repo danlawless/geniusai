@@ -1,36 +1,37 @@
 {
   "name": "geniusai-admin-dashboard",
   "version": "1.0.0",
-  "description": "GeniusAI Admin Dashboard - Professional Next.js dashboard for AI platform management",
+  "description": "Modern Admin Dashboard for GeniusAI Platform",
+  "private": true,
   "scripts": {
-    "dashboard": "cd admin-dashboard && npm run dev",
-    "dashboard:dev": "cd admin-dashboard && npm run dev",
-    "dashboard:build": "cd admin-dashboard && npm run build",
-    "dashboard:start": "cd admin-dashboard && npm run start",
-    "dashboard:install": "cd admin-dashboard && npm install",
-    "dashboard:lint": "cd admin-dashboard && npm run lint",
-    "dashboard:export": "cd admin-dashboard && npm run build",
-    "dashboard:vercel": "cd admin-dashboard && vercel --prod",
-    "admin": "cd admin-dashboard && npm run dev"
+    "dev": "next dev -p 3001",
+    "build": "next build",
+    "start": "next start -p 3001",
+    "lint": "next lint",
+    "export": "next build && next export"
   },
-  "keywords": [
-    "admin-dashboard",
-    "nextjs",
-    "react",
-    "typescript",
-    "tailwindcss",
-    "vercel",
-    "ai-platform",
-    "demo"
-  ],
-  "author": "Dan Lawless",
-  "license": "MIT",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/danlawless/geniusai.git"
+  "dependencies": {
+    "next": "^14.0.4",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "typescript": "^5.3.3",
+    "@types/node": "^20.10.5",
+    "@types/react": "^18.2.45",
+    "@types/react-dom": "^18.2.18",
+    "tailwindcss": "^3.4.0",
+    "autoprefixer": "^10.4.16",
+    "postcss": "^8.4.32",
+    "lucide-react": "^0.303.0",
+    "recharts": "^2.8.0",
+    "clsx": "^2.0.0",
+    "js-cookie": "^3.0.5",
+    "@types/js-cookie": "^3.0.6",
+    "framer-motion": "^10.16.16",
+    "react-hot-toast": "^2.4.1",
+    "date-fns": "^3.0.6"
   },
-  "engines": {
-    "node": ">=18.0.0",
-    "npm": ">=9.0.0"
+  "devDependencies": {
+    "eslint": "^8.56.0",
+    "eslint-config-next": "^14.0.4"
   }
-}
+} 
